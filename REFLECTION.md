@@ -5,10 +5,11 @@
 
 
     What was my coding process?
-        Reflect on your approach from planning to execution. How did you organize your work, and what strategies did you employ?
+        Basically I just followed the assignment steps in order and used the template as a guide to help me along as needed and pulled the various images from google where necessary/
+
 
     What challenges did I have?
-        Identify and describe any obstacles you encountered while working on this project. How did you address or overcome these challenges?
+        Most of my challenges were not HTML related but rather with Git/VSC being stubborn and not wanting to sync properly... something with the credentials manager? so that killed a lot of time trying to diagnose and fix the issues and I ended up losing a lot of progress there.
 
     What would I do differently now?
-        Given what you have learned through this project, what changes would you make to your approach or your code if you were to start over?
+        
