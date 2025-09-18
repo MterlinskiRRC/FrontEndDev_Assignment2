@@ -1,38 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    background-color: #f0f0f0;
+    background-color: #121212; 
+    color: #f0f0f0; 
     font-family: Arial, sans-serif;
-    color: #333;
     padding: 20px;
     margin: 0;
 }
 
 header {
     text-align: center;
+    margin-bottom: 20px;
 }
 
-main {
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #1a237e; 
+}
+
+h1 {
+    color: #0d47a1; 
+}
+
+h2 {
+    border-bottom: 2px solid #1a237e;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+img {
+    border: 2px solid #444;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #bb86fc; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #6200ee;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-style: italic;
+    color: #999;
+}
+
+
+.resume-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
-    max-width: 800px;
-    width: 100%;
-}
-
-.section-container {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    width: 100%;
 }
 
 section {
-    background-color: #fff;
+    background-color: #1e1e1e; 
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.resume-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    grid-column: 1 / span 2;
+}
+
+#contact-info {
+    grid-column: 1 / 2;
+}
+
+#skills {
+    grid-column: 2 / 3;
+}
+
+#about-me {
+    grid-column: 1 / span 2;
+}
+
+footer {
+    grid-column: 1 / span 2;
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
 }
